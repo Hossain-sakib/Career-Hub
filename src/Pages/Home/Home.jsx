@@ -1,0 +1,16 @@
+import React from 'react';
+import Banner from '../../Components/Banner/Banner';
+import CategoryList from '../../Components/CategoryList/CategoryList';
+import FeaturedJobs from '../../Components/FeaturedJobs/FeaturedJobs';
+
+const Home = () => {
+    return (
+        <div className='space-y-20'>
+            <Banner></Banner>
+            <CategoryList></CategoryList>
+            <FeaturedJobs></FeaturedJobs>
+        </div>
+    );
+};
+
+export default Home;
