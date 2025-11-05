@@ -1,4 +1,4 @@
-import React from 'react';
+
 import Banner from '../../Components/Banner/Banner';
 import CategoryList from '../../Components/CategoryList/CategoryList';
 import FeaturedJobs from '../../Components/FeaturedJobs/FeaturedJobs';
